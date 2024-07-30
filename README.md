@@ -1,2 +1,7 @@
-# manuchaitanya.com
-My Personal Website developed by using HTML, CSS, JS.
+![Project Details-My Portfolio_page-0001](https://github.com/user-attachments/assets/a18c0bca-47d9-4695-b8c0-3fe22b72d4e6)
+![Project Details-My Portfolio_page-0002](https://github.com/user-attachments/assets/e688aeb0-be10-4098-8133-3a85371e92bf)
+![Project Details-My Portfolio_page-0003](https://github.com/user-attachments/assets/446a9d45-23ff-4dd5-b133-ef965bd788ce)
+![Project Details-My Portfolio_page-0004](https://github.com/user-attachments/assets/fbfd5a52-6a2f-40e5-9df3-5081d9c7119d)
+![Project Details-My Portfolio_page-0005](https://github.com/user-attachments/assets/041beb87-c864-48e2-b45c-f0f577c8eb97)
+![Project Details-My Portfolio_page-0006](https://github.com/user-attachments/assets/f68d2aa1-151e-481d-993e-a8cb617c63ae)
+![Project Details-My Portfolio_page-0007](https://github.com/user-attachments/assets/d81fc38e-1c8e-488a-9a3c-17db85204068)
