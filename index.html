@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--- Primary Meta Tags -->
+  <title>Manu Chaitanya - Web Developer</title>
+  <meta name="title" content="Manu Chaitanya - Web Developer">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!--- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!--- External CSS Link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Preload Images -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!--- Preloader -->
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+  <!--- Container-1 Header -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <!-- Item-1 Personal Logo -->
+      <a href="#" class="logo"></a>
+
+      <!-- Item-2 Sidebar Menu -->
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li>
+            <a href="/" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="./assets/images/resume@manuchaitanya.pdf" target="_blank" class="navbar-link">Resume</a>
+          </li>
+          <li>
+            <a href="#service-label" class="navbar-link">Timeline</a>
+          </li>
+          <li>
+            <a href="#blog-label" class="navbar-link">Blog</a>
+          </li>
+          <li>
+            <a href="#footer" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+
+  <!-- Container-2 Main -->
+  <main>
+    <article>
+
+      <!-- Section-1 Introduction -->
+      <section class="section hero" aria-label="home">
+        <div class="container">
+          <div class="hero-content">
+
+            <!-- Item-1 Name -->
+            <h1 class="h1 hero-title">Manu <br> Chaitanya</h1>
+
+            <!-- Item-2 Title -->
+            <p class="hero-subtitle">Programmer & Web Developer</p>
+  
+            <!-- Item-3 Image -->
+            <div class="hero-banner">
+              <img src="./assets/images/profile.png" width="800" height="800" alt="Manu Chaitanya" class="w-100">
+            </div>
+
+            
+  
+            <!-- Item-4 Description -->
+            <p class="section-text">
+              Hi,  I’m <b>Manu Chaitanya </b>, a undergraduate student at Bennett University, currently in my Third Year. With over two and a half years of hands-on experience in Web Development and Programming.
+            </p>
+
+            <!-- Item-5 Resume -->
+            <a href="./assets/images/resume@manuchaitanya.pdf" class="btn has-before" target="_blank">
+              <span class="span" style="color: rgb(215, 215, 215);">Download CV</span>
+              <ion-icondownload name="download-outline" aria-hidden="true"></ion-icondownload>
+            </a>
+          </div>
+        </div>
+      </section>
+  
+
+      <!-- Section-2 My Learning Timeline -->
+      <section class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <!-- Item-1 Timeline's Heading and Description -->
+          <div class="title-wrer">
+            <div>
+              <p class="section-subtitle">Learning</p>
+              <h2 class="h2 section-title" id="service-label">TIMELINE</h2>
+            </div>
+            <p class="section-text">
+              During my College Days at Bennett University spanning Five Semesters, I dedicated a significant portion of
+              my academic focus to the comprehensive study of Data Structures and Algorithms, encompassing fundamental
+              principles and advanced methodologies. Over a period of two and half years, I demonstrated adeptness in both
+              Front-End and Back-End Development, evidencing my proficiency through the successful completion of a diverse
+              projects.
+            </p>
+          </div>
+
+          <!-- Item-2 Timeline's PDF -->
+          <a href="./assets/images/timeline@manuchaitanya.pdf" class="btn has-before" target="_blank">
+            <span class="span">Click Here- My Five Semester's Timeline</span>
+            <ion-icon name="arrow-forward"></ion-icon>
+          </a>
+
+          <!-- Item-3 Timeline's Courses -->
+          <div class="slider" data-slider>
+            <ul class="slider-container service-list" data-slider-container>
+
+              <!-- Course-1 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Introduction to Programming</h3>
+                  <p class="card-text">
+                    I cultivated a strong foundation in Java Programming, concentrating intently on a course encountered
+                    during my <b>First Semester</b>. I successfully mastered the tenets of programming, encompassing
+                    Introduction to Java, Variables, Data Types, Conditional Statements, Methods, Recursion, Strings, and
+                    Arrays. Simultaneously, I engaged in the resolution of facile Leetcode Questions pertaining to these
+                    thematic domains.
+                  </p>
+                  <a href="https://github.com/manuchaitanya17/Introduction-to-Programming"
+                    class="layer-link" target="_blank" aria-label="More about my eCommerce service"></a>
+                </div>
+              </li>
+  
+              <!-- Course-2 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Object-Oriented Programming</h3>
+                  <p class="card-text">
+                    I delved profoundly into the intricacies of Java programming, navigating the vast landscape of
+                    Object-Oriented Programming with a discerning acumen in my <b>Second Semester</b>. I proficiently
+                    traversed through Objects and Classes, Principles of OOP's, Exception Handling, Generics, Collection
+                    Framework and a myriad of other intricacies. In tandem, I applied my knowledge by resolving
+                    cognitively demanding GeeksforGeeks Questions.
+                  </p>  
+                  <a href="https://github.com/manuchaitanya17/Object-Oriented-Programming"
+                    class="layer-link" target="_blank" aria-label="More about my Graphic Design service"></a>
+                </div>
+              </li>
+  
+              <!-- Course-3 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name='terminal-outline'></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Data Structures and Algorithms</h3>
+                  <p class="card-text">
+                    After the initial phase of crafting Less Optimized Code, I redirected my efforts towards mastering
+                    Data Structures in Java in <b>Third Semester.</b> My comprehensive journey encompassed a thorough
+                    exploration of Foundational Structures such as Strings, Arrays, Linked Lists, Hashmaps, Stacks and
+                    Queues progressing seamlessly to Advanced constructs like Trees and Graphs along with Leetcode Easy
+                    Questions.
+                  </p>  
+                  <a href="https://github.com/manuchaitanya17/Data-Structures-Algorithms"
+                    target="_blank" class="layer-link" aria-label="More about my Social Media service"></a>
+                </div>
+              </li>
+  
+              <!-- Course-4 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name='analytics-outline'></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Competitive Programming</h3>
+                  <p class="card-text">
+                    After completing LeetCode and GFG Easy-Level Questions, I elevated my programming prowess by immersing
+                    myself in the intricacies of Medium-Level Challenges and Competitive Programming in <b>Fourth
+                      Semester</b>. My strategic focus extended to the implementation of renowned algorithms like Binary
+                    Search, Sorting Algorithms, Sliding Window, Greedy Algorithms, Backtracking and Dynamic Programming."
+                  </p>  
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+                </div>
+              </li>
+
+              <!-- Course-5 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Basic Frontend Development </h3>
+                  <p class="card-text">
+                    I embarked on my Frontend journey in <b>Second Semester</b> by mastering the basics, laying a solid
+                    foundation for Web Development. This initial phase included acquiring skills in HTML, CSS, and JS
+                    setting the stage for a comprehensive exploration of Front-End Technologies and design principles. I
+                    undertook the development of five foundational Front-End Projects.
+                  </p>  
+                  <a href="https://github.com/manuchaitanya17/Basic-Frontend-Development"
+                    class="layer-link" target="_blank" aria-label="More about my website design service"></a>
+                </div>
+              </li>
+
+              <!-- Course-6 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Basic Backend Development</h3>
+                  <p class="card-text">
+                    I initiated my exploration into Back-End Development by mastering foundational concepts in <b>Third
+                      Semester</b>. This journey involved gaining a understanding of Server-Side Technologies, Databases
+                    and Server Management. Acquiring proficiency in languages like PHP and MySQL. In pursuit of a deeper
+                    comprehension, I undertook the development of five foundational Back-End Projects.
+                  </p>  
+                  <a href="https://github.com/manuchaitanya17/Basic-Backend-Development"
+                    class="layer-link" target="_blank" aria-label="More about my SEO Marketing service"></a>
+                </div>
+              </li>
+
+              <!-- Course-7 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="logo-react" display="inline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Advanced Frontend Development</h3>
+                  <p class="card-text">
+                    After completing the Basics of Frontend Development, I initiated with the Advanced of JavaScript and React JS a versatile and powerful technology stack for building Full-Stack Web Applications in
+                    <b>Fourth Semester</b>. Starting with JavaScript for internal deep-dive in the language, React JS for dynamic and interactive user interfaces.
+                  </p>  
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+                </div>
+              </li>
+
+               <!-- Course-8 -->
+               <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name='logo-nodejs' display="inline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Advanced Backend Development</h3>
+                  <p class="card-text">
+                    After completing the Basics of Backend Development, I initiated with Express JS and Node JS a versatile and powerful technology stack for building Full-Stack Web Applications in
+                    <b>Fifth Semester</b>. Starting with Express JS for robust Backend and Node JS for scalable server-side execution.
+                  </p>  
+                  <a href="https://github.com/manuchaitanya17/Advanced-Frontend-Development" class="layer-link" aria-label="More about my Social Media service"></a>
+                </div>
+              </li>
+
+              <!-- Course-9 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="layers-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Database Management System</h3>
+                  <p class="card-text">
+                    I also focussed on some other Core Subjects. I embarked on the realm of Database Management Systems
+                    (DBMS) in my <b>Second Semester</b>. My journey involved understanding ER Diagram, Relational Algebra,
+                    Normalization, Transactions, Concurrency Control and more. Exploring various Database Models and
+                    Systems.  
+                    <a href="#"
+                      class="layer-link" target="_blank" aria-label="More about my Digital Marketing service"></a>
+                </div>
+              </li>
+
+             
+              <!-- Course-10 -->
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="storefront-outline"></ion-icon>
+                  </div>
+                  <h3 class="h3 card-title">Internship Capstone</h3>
+                  <p class="card-text">
+                    I revised my all cources for Internship in the end of <b>Fifth Semester</b>. I categorised them in Four Modules. The First Module included Basic Frontend Development and Advanced Frontend Development. The Second Module had Introduction to Programming and Data Structures and Algorithms. For the Third Module, I covered Basic Backend Development and Competitive Programming. And for the Last Module, I revised Database Management System and Object-Oriented Programming. 
+                  </p>  
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+                </div>
+              </li>
+            </ul>
+  
+            <!-- Item-4 Slider Controllers -->
+
+            <!-- Previous Card Slider -->
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+  
+              <!-- Forward Card Slider -->
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  
+      <!-- Section-3 Skills -->
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <!-- Item-1 Skills Heading -->
+          <p class="section-subtitle">Juxtapose </p>
+          <h2 class="h2 section-title">SKILLS</h2>
+
+          <!-- Item-2 Skill Description -->
+          <div class="skills-wrer">
+            <div>
+              <p class="section-text">
+                These percentages are not merely metrics, they encapsulate my unwavering commitment to mastery. Each
+                percentage signifies hands-on experience, successful course implementations, and a relentless pursuit of
+                excellence. As I bring these skills to the forefront, I am poised to contribute in real world, driving
+                innovation and achieving remarkable outcomes.
+              </p>
+              <a href="#footer" class="btn has-before">info@manuchaitanya.com</a>
+            </div>
+
+            <!-- Item-3 Skill List -->
+            <div>
+              <ul class="skills-list">
+  
+                <!-- Skill-1 -->
+                <li>
+                  <div class="progress-wrer">
+                    <p class="progress-label">Data Structures and Algorithms</p>
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+  
+                <!-- Skill-2 -->
+                <li>
+                  <div class="progress-wrer">
+                    <p class="progress-label">Frontend Development</p>
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+  
+                <!-- Skill-3 -->
+                <li>
+                  <div class="progress-wrer">
+                    <p class="progress-label">Backend Development</p>
+                    <data class="progress-value" value="50">50%</data>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 50%;"></div>
+                  </div>
+                </li>
+  
+                <!-- Skill-4 -->
+                <li>
+                  <div class="progress-wrer">
+                    <p class="progress-label">Database Management System</p>
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Section-4 Projects -->
+      <section class="portfolio" aria-labelledby="portfolio-label">
+
+        <!-- Item-1 Project Heading and Description -->
+        <div class="title-wrer container">
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Project</p>
+            <h2 class="h2 section-title">WORKS</h2>
+          </div>
+          <p class="section-text">
+            I dedicated my efforts in Development for the creation of Frontend and Backend Projects, each
+            meticulously crafted to elevate my Development Skills. These endeavors not only demonstrate my proficiency in
+            Web Design and User Interfaces but also underscore my command over Server-Side Technologies.
+          </p>
+        </div>
+  
+        <!-- Item-2 Projects List -->
+        <div class="slider" data-slider>
+          <ul class="slider-container" data-slider-container>
+  
+            <!-- Project-1 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/lensshub-basics.png" width="600" height="600" loading="lazy" alt="portfolio" class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Lensshub-Basics</h3>
+                  <p class="card-text">Basic Frontend Development</p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/Lensshub-Basics" target="_blank" class="layer-link"></a>
+              </div>
+            </li>
+  
+            <!-- Project-2 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/pf.png" width="600" height="600" loading="lazy" alt="portfolio" class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">My PortFolio</h3>
+                  <p class="card-text">Basic Frontend Development</p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/My-Portfolio" target="_blank" class="layer-link"></a>
+              </div>
+            </li>
+
+            <!-- Project-3 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/juvizo.jpg" width="600" height="600" loading="lazy" alt="portfolio" class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Juvizo</h3>
+                  <p class="card-text">Basic Frontend Development</p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/Juvizo" class="layer-link"></a>
+              </div>
+            </li>
+  
+            <!-- Project-4 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/metube.jpg" width="600" height="600" loading="lazy" alt="portfolio" class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">MeTube</h3>
+                  <p class="card-text">Advanced Frontend Development</p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/MeTube/tree/main" target="_blank" class="layer-link"></a>
+              </div>
+            </li>
+  
+            <!-- Project-5 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/nebula.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Nebula AI</h3>
+                  <p class="card-text">Advanced Frontend Development</p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/Nebula-AI" target="_blank" class="layer-link"></a>
+              </div>
+            </li>
+
+            <!-- Project-6 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/sqlmaa.png" width="600" height="600" loading="lazy" alt="portfolio" class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">SQL Master</h3>
+                  <p class="card-text">Basic Backend Development</p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/SQLMaster" class="layer-link" target="_blank"></a>
+              </div>
+            </li>
+  
+            <!-- Project-7 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/riddleBookLogo.png" width="600" height="600" loading="lazy" alt="portfolio"
+                class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Riddle Book</h3>
+                  <p class="card-text">Basic Backend Development </p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/RiddleBook" target="_blank" class="layer-link"></a>
+              </div>
+            </li>
+  
+            <!-- Project-8 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/iDiscussLogo.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">iDiscuss</h3>
+                  <p class="card-text">Basic Backend Development </p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/iDiscuss" target="_blank" class="layer-link"></a>
+              </div>
+            </li>
+
+            <!-- Project-9 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/lensshub-basics.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Lensshub-Advanced</h3>
+                  <p class="card-text">Basic Backend Development</p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/Lensshub-Advanced" class="layer-link" target="_blank"></a>
+              </div>
+            </li>
+
+            <!-- Project-10 -->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/cinepulse.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Cine Pulse</h3>
+                  <p class="card-text">Advanced Backend Development</p>
+                </div>
+                <a href="https://github.com/manuchaitanya17/CinePulse" class="layer-link" target="_blank"></a>
+              </div>
+            </li>
+  
+            
+  
+          </ul>
+  
+          <!-- Item-3 Slide Controller -->
+
+          <!-- Backward Slider -->
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+  
+            <!-- Forward Slider -->
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section-5 My Blogs -->
+      <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <!-- Item-1 Blog Heading -->
+          <p class="section-subtitle" id="blog-label">Recent Articles</p>
+          <h2 class="h2 section-title">MY BLOGS</h2>
+  
+          <!-- Item-2 Blog List -->
+          <ul class="blog-list">
+  
+            <!-- Blog-1 -->
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 700; --height: 420;">
+                  <img src="./assets/images/internshipCapstoneBlog.jpeg" width="700" height="470" loading="lazy"
+                    alt="Get Started With Tiktok Ads." class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <time class="time" datetime="2024-01-01">
+                    <span  class="span text-lg">15</span>
+                    &nbsp;  July
+                  </time>
+                  <div>
+                    <h3 class="h3 card-title">Get Started With Internship Capstone. </h3>
+                    <p class="card-text">
+                      Excited to revise all my Courses in the next two months. The Module-1 covers Basic Frontend and Advanced Frontend Development! Grateful for the vacation.
+                    </p>
+                    <a href="https://github.com/manuchaitanya17?tab=repositories" class="btn has-before" target="_blank">
+                      <span class="span">Know More</span>
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <!-- Blog-2 -->
+            <li>
+              <div class="blog-card">
+                <figure class="card-banner img-holder" style="--width: 700; --height: 420;">
+                  <img src="./assets/images/binarySearchBlog.png" width="650" height="450" loading="lazy"
+                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <time class="time" datetime="2024-01-02">
+                    <span class="span text-lg">02</span>
+                    &nbsp; August
+                  </time>
+                  <div>
+                    <h3 class="h3 card-title">Revising the Binary Search  Skipping Mid Algorithms.</h3>
+                    <p class="card-text">
+                      Navigating through potential solutions systematically, revising and backtracking as needed.
+                      Essential for algorithmic challenges requiring exhaustive search and optimization.
+                    </p>
+                    <a href="https://replit.com/@ManuChaitanya/recursion" class="btn has-before" target="_blank">
+                      <span class="span">Know more</span>
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+  <!-- Container-3 Contacts and Connections -->
+  <footer class="footer" id = "footer">
+    <div class="container">
+
+      <!-- Item-1 Email -->
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+        <li>
+          <a href="##LinkofContacts" class="footer-link">info@manuchaitanya</a>
+        </li> 
+      </ul>
+
+      <!-- Item-2 Location -->
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+        <li>
+          <a href="#" class="footer-link">New Delhi, India</a>
+        </li>
+      </ul>
+
+      <!-- Item-3 Social Media and Github -->
+      <ul class="social-list">
+        <li>
+          <a href="https://github.com/manuchaitanya17" target=”_blank” class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/m17chaitanya/" target=”_blank” class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:m7chaitanya@gmail.com" target=”_blank” class="social-link">
+            <ion-icon name="mail"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/manuchaitanya/" target=”_blank” class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="tel:+91877454586" target=”_blank” class="social-link">
+            <ion-icon name="call"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JavaScript Link -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
